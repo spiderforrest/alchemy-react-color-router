@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/Header.js';
 import Main from './components/Main.js';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import NotFound from './components/NotFound.js';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             <Main />
           </Route>
           <Route path="*">
-            <Redirect to="/15/55/15" />
+            <NotFound />
           </Route>
         </Switch>
       </div>
