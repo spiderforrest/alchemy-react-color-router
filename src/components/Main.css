@@ -1,0 +1,14 @@
+.bg {
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.main {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
